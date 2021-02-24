@@ -35,7 +35,8 @@ Diameters from clustered vaiations (REVIEW)                                     
 :--------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:
 <img src="Images/diameter.png" width="500">                                             |  <img src="Images/diam.png" width="500">
 
-
+## Detailed Report
+Detailed report can be found [here](https://arxiv.org/abs/2009.11099) as a Perprint.
 ## References
 
 **[1]** Dinesh Kant Kumar, Behzad Aliahmad, Hao Hao, Mohd Zulfaezal
