@@ -140,10 +140,11 @@ def select(img):
     # Finding all the points on the contour 
     Cp = cv2.cvtColor(C, cv2.COLOR_BGR2GRAY)
     point = cv2.findNonZero(Cp)
-    
+
     # Taking as input the number of parts to which the contour should be divided
     num_parts = input("In how many parts you want to divide the selected vessel (Please enter an integer <=5):  ")
     #print(point.shape)
+    print("Select the required part and press Q.")
 
     parts = np.array_split(point, int(num_parts), axis=0)
     colbgr = [(193, 182, 255), (255, 0, 102), (255, 128, 0), (0, 255, 255), (10, 200, 10)]
