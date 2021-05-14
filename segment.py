@@ -59,7 +59,8 @@ def seg(img, t=8, A=200,L=50):
     _,ves = cv2.threshold(vessels, 30, 255, cv2.THRESH_BINARY)
     dist = cv2.distanceTransform(vessels, cv2.DIST_L2, 3)
     _,mv,_,mp = cv2.minMaxLoc(dist)
-    print("Maximum diameter:",mv*2,"at the point:", mp) 
+    print("Maximum diameter:",mv*2,"at the point:", mp)
+    print("Select the vessel and press Q after selection.") 
 
     # Centerline extraction using Zeun-Shang's thinning algorithm
     # Using opencv-contrib-python which provides very fast and efficient thinning algorithm
