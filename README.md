@@ -3,8 +3,8 @@ The following program employes a global thresholding based segmentation algorith
 ## Dependencies
 You can install Python dependencies using pip install -r [requirements.txt](requirements.txt), and it should work. If you want to install the packages manually, here's a list:
 1. [Numpy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
-2. [Opencv](https://opencv.org/)
-3. [Opencv-contrib-python](https://pypi.org/project/opencv-contrib-python/)
+2. [Opencv](https://opencv.org/) (4.2.0.34)
+3. [Opencv-contrib-python](https://pypi.org/project/opencv-contrib-python/) (4.2.0.34)
 ## Description
 Following flowcharts explain the algorithms used for segmentation and diameter estimation:
 
