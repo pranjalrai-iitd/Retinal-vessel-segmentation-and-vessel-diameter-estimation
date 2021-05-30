@@ -13,7 +13,7 @@ Retinal vessel segmentation                                                     
 <img src="Images/segmentation.png" width="500">                                         |  <img src="Images/dia_estimation.png" width="500">
 
 ## How to use
-As an input, pass the path of the retinal image, to [main.py](main.py). The image will be segmented and a vessel centreline map will pop in a new window. Select the target vessel centerline by clicking near it. As an input, pass an integer corresponding to the number of equal parts in which you want to divide the selected centreline. All the parts of the selected centreline will pop in a new window. Again, select the target part by clicking near it. Diameters of the target centreline part will be passed out as an output along with an annotated image with predicted diameters.
+As an input, pass the path of the retinal image, to [main.py](main.py). The image will be segmented and a vessel centreline map will pop in a new window. Select the target vessel centerline by clicking near it and press *Q* to close the window. As an input, pass an integer corresponding to the number of equal parts in which you want to divide the selected centreline. All the parts of the selected centreline will pop in a new window. Again, select the target part by clicking near it and press *Q* to close the window. Diameters of the target centreline part will be passed out as an output along with an annotated image with predicted diameters.
 
 ![Sample video](Images/sample.gif)
 
